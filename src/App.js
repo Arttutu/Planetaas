@@ -1,7 +1,9 @@
+import Index from "./Paginas";
 
 function App() {
   return (
     <>
+    <Index/>
     </>
   );
 }
