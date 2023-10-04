@@ -10,3 +10,5 @@ export const CorJupter = "#D83A34";
 export const CorSaturno = "#CD5120";
 export const CorUranos = "#1EC1A2";
 export const CorNeturno = "#2D68F0";
+export const FontAntonio = "'Antonio', sans-serif;";
+export const FontSpartan = "'League Spartan', sans-serif;";
