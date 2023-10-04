@@ -1,27 +1,76 @@
 [
+  {
+    "nome": "Terra",
+    "visao_geral": {
+      "conteudo": "Terceiro planeta a partir do Sol e o único planeta conhecido que abriga vida. Cerca de 29,2% da superfície da Terra é terra firme, com os restantes 70,8% cobertos de água. A distância da Terra ao Sol, as propriedades físicas e a história geológica permitiram a evolução e a prosperidade da vida.",
+      "fonte": "https://pt.wikipedia.org/wiki/Terra"
+    },
+    "estrutura": {
+      "conteudo": "O interior da Terra, assim como o dos outros planetas terrestres, é dividido em camadas de acordo com suas propriedades químicas ou físicas. A camada externa é uma crosta sólida de silicato quimicamente distinta, que é sobreposta por um manto sólido altamente viscoso.",
+      "fonte": "https://pt.wikipedia.org/wiki/Terra#Estrutura_interna"
+    },
+    "geologia": {
+      "conteudo": "A área total da superfície da Terra é de cerca de 510 milhões de km². A crosta continental consiste em material de menor densidade, como as rochas ígneas granito e andesito. Menos comum é o basalto, uma rocha vulcânica mais densa que é o principal constituinte dos fundos oceânicos.",
+      "fonte": "https://pt.wikipedia.org/wiki/Terra#Superf%C3%ADcie"
+    },
+    "rotação": "0,99 Dias",
+    "revolução": "365,26 Dias",
+    "raio": "6.371 KM",
+    "temperatura": "16°C",
+    "imagens": {
+      "planeta": "./assets/planeta-terra.svg",
+      "interno": "./assets/planeta-terra-interno.svg",
+      "geologia": "./assets/geologia-terra.png"
+    }
+  },
+  {
+    "nome": "Júpiter",
+    "visao_geral": {
+      "conteudo": "Júpiter é o quinto planeta a partir do Sol e o maior do Sistema Solar. É um gigante gasoso com uma massa duas vezes e meia maior que a de todos os outros planetas do Sistema Solar combinados, mas com menos de milésimo da massa do Sol.",
+      "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter"
+    },
+    "estrutura": {
+      "conteudo": "Quando a Juno chegou em 2016, descobriu-se que Júpiter possui um núcleo muito difuso que se mistura com seu manto. Uma possível causa é um impacto de um planeta com cerca de dez massas terrestres alguns milhões de anos após a formação de Júpiter, o que teria perturbado um núcleo joviano originalmente sólido.",
+      "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter#Estrutura_interna"
+    },
+    "geologia": {
+      "conteudo": "A característica mais conhecida de Júpiter é a Grande Mancha Vermelha, uma tempestade anticlônica persistente localizada a 22° ao sul do equador. Sabe-se que ela existe desde pelo menos 1831, e possivelmente desde 1665.",
+      "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter#Grande_Mancha_Vermelha_e_outros_v%C3%B3rtices"
+    },
+    "rotação": "9,93 Horas",
+    "revolução": "11,86 Anos",
+    "raio": "69.911 KM",
+    "temperatura": "-108°C",
+    "imagens": {
+      "planeta": "./assets/planeta-jupiter.svg",
+      "interno": "./assets/planeta-jupiter-interno.svg",
+      "geologia": "./assets/geologia-jupiter.png"
+    }
+  },
+  
     {
-      "nome": "Mercúrio",
-      "visao_geral": {
-        "conteudo": "Mercúrio é o menor planeta do Sistema Solar e o mais próximo do Sol. Sua órbita ao redor do Sol leva 87,97 dias terrestres, a mais curta de todos os planetas do Sol. Mercúrio é um dos quatro planetas terrestres do Sistema Solar e é um corpo rochoso, assim como a Terra.",
-        "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
-      },
-      "estrutura": {
-        "conteudo": "Mercúrio parece ter uma crosta e manto de silicato sólido sobrepostos por uma camada externa sólida de sulfeto de ferro, uma camada interna líquida mais profunda e um núcleo interno sólido. A densidade do planeta é a segunda mais alta do Sistema Solar, com 5,427 g/cm³, apenas ligeiramente menor que a densidade da Terra.",
-        "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)#Estrutura_interna"
-      },
-      "geologia": {
-        "conteudo": "A superfície de Mercúrio é semelhante à da Lua, com extensas planícies semelhantes a mares e crateras profundas, indicando que ele tem sido geologicamente inativo por bilhões de anos. É mais heterogêneo do que Marte ou a Lua.",
-        "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)#Geologia_da_superf%C3%ADcie"
-      },
-      "rotação": "58,6 Dias",
-      "revolução": "87,97 Dias",
-      "raio": "2.439,7 KM",
-      "temperatura": "430°C",
-      "imagens": {
-        "planeta": "./assets/planeta-mercurio.svg",
-        "interno": "./assets/planeta-mercurio-interno.svg",
-        "geologia": "./assets/geologia-mercurio.png"
-      }
+        "nome": "Mercúrio",
+        "visao_geral": {
+          "conteudo": "Mercúrio é o menor planeta do Sistema Solar e o mais próximo do Sol. Sua órbita ao redor do Sol leva 87,97 dias terrestres, a mais curta de todos os planetas do Sol. Mercúrio é um dos quatro planetas terrestres do Sistema Solar e é um corpo rochoso, assim como a Terra.",
+          "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
+        },
+        "estrutura": {
+          "conteudo": "Mercúrio parece ter uma crosta e manto de silicato sólido sobrepostos por uma camada externa sólida de sulfeto de ferro, uma camada interna líquida mais profunda e um núcleo interno sólido. A densidade do planeta é a segunda mais alta do Sistema Solar, com 5,427 g/cm³, apenas ligeiramente menor que a densidade da Terra.",
+          "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)#Estrutura_interna"
+        },
+        "geologia": {
+          "conteudo": "A superfície de Mercúrio é semelhante à da Lua, com extensas planícies semelhantes a mares e crateras profundas, indicando que ele tem sido geologicamente inativo por bilhões de anos. É mais heterogêneo do que Marte ou a Lua.",
+          "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)#Geologia_da_superf%C3%ADcie"
+        },
+        "rotação": "58,6 Dias",
+        "revolução": "87,97 Dias",
+        "raio": "2.439,7 KM",
+        "temperatura": "430°C",
+        "imagens": {
+          "planeta": "./assets/planeta-mercurio.svg",
+          "interno": "./assets/planeta-mercurio-interno.svg",
+          "geologia": "./assets/geologia-mercurio.png"
+        }
     },
     {
       "nome": "Vênus",
@@ -48,30 +97,6 @@
       }
     },
     {
-      "nome": "Terra",
-      "visao_geral": {
-        "conteudo": "Terceiro planeta a partir do Sol e o único planeta conhecido que abriga vida. Cerca de 29,2% da superfície da Terra é terra firme, com os restantes 70,8% cobertos de água. A distância da Terra ao Sol, as propriedades físicas e a história geológica permitiram a evolução e a prosperidade da vida.",
-        "fonte": "https://pt.wikipedia.org/wiki/Terra"
-      },
-      "estrutura": {
-        "conteudo": "O interior da Terra, assim como o dos outros planetas terrestres, é dividido em camadas de acordo com suas propriedades químicas ou físicas. A camada externa é uma crosta sólida de silicato quimicamente distinta, que é sobreposta por um manto sólido altamente viscoso.",
-        "fonte": "https://pt.wikipedia.org/wiki/Terra#Estrutura_interna"
-      },
-      "geologia": {
-        "conteudo": "A área total da superfície da Terra é de cerca de 510 milhões de km². A crosta continental consiste em material de menor densidade, como as rochas ígneas granito e andesito. Menos comum é o basalto, uma rocha vulcânica mais densa que é o principal constituinte dos fundos oceânicos.",
-        "fonte": "https://pt.wikipedia.org/wiki/Terra#Superf%C3%ADcie"
-      },
-      "rotação": "0,99 Dias",
-      "revolução": "365,26 Dias",
-      "raio": "6.371 KM",
-      "temperatura": "16°C",
-      "imagens": {
-        "planeta": "./assets/planeta-terra.svg",
-        "interno": "./assets/planeta-terra-interno.svg",
-        "geologia": "./assets/geologia-terra.png"
-      }
-    },
-    {
       "nome": "Marte",
       "visao_geral": {
         "conteudo": "Marte é o quarto planeta a partir do Sol e o segundo menor planeta no Sistema Solar, sendo maior apenas que Mercúrio. Em inglês, Marte leva o nome do deus romano da guerra e é frequentemente chamado de \"Planeta Vermelho\".",
@@ -95,31 +120,7 @@
         "geologia": "./assets/geologia-marte.png"
       }
     },
-    {
-      "nome": "Júpiter",
-      "visao_geral": {
-        "conteudo": "Júpiter é o quinto planeta a partir do Sol e o maior do Sistema Solar. É um gigante gasoso com uma massa duas vezes e meia maior que a de todos os outros planetas do Sistema Solar combinados, mas com menos de milésimo da massa do Sol.",
-        "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter"
-      },
-      "estrutura": {
-        "conteudo": "Quando a Juno chegou em 2016, descobriu-se que Júpiter possui um núcleo muito difuso que se mistura com seu manto. Uma possível causa é um impacto de um planeta com cerca de dez massas terrestres alguns milhões de anos após a formação de Júpiter, o que teria perturbado um núcleo joviano originalmente sólido.",
-        "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter#Estrutura_interna"
-      },
-      "geologia": {
-        "conteudo": "A característica mais conhecida de Júpiter é a Grande Mancha Vermelha, uma tempestade anticlônica persistente localizada a 22° ao sul do equador. Sabe-se que ela existe desde pelo menos 1831, e possivelmente desde 1665.",
-        "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter#Grande_Mancha_Vermelha_e_outros_v%C3%B3rtices"
-      },
-      "rotação": "9,93 Horas",
-      "revolução": "11,86 Anos",
-      "raio": "69.911 KM",
-      "temperatura": "-108°C",
-      "imagens": {
-        "planeta": "./assets/planeta-jupiter.svg",
-        "interno": "./assets/planeta-jupiter-interno.svg",
-        "geologia": "./assets/geologia-jupiter.png"
-      }
-    },
-    
+
     {
       "nome": "Saturno",
       "visao_geral": {

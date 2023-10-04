@@ -7,6 +7,7 @@ export const MainStyle = styled.main`
   background-color: ${CorFundo};
   background-image: url("../../assets/img/Outros/background-stars.svg");
   background-size: cover;
+  background-repeat: no-repeat;
 `;
 export const Conteiner = styled.div`
   width: 1440px;
