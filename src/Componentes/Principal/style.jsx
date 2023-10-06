@@ -10,7 +10,8 @@ export const MainStyle = styled.main`
   background-repeat: no-repeat;
 `;
 export const Conteiner = styled.div`
-  width: 1440px;
+  width: 1100px;
+  height: 756px;
   margin: 0 auto;
   height: auto;
 `;

@@ -13,12 +13,12 @@
       "conteudo": "A área total da superfície da Terra é de cerca de 510 milhões de km². A crosta continental consiste em material de menor densidade, como as rochas ígneas granito e andesito. Menos comum é o basalto, uma rocha vulcânica mais densa que é o principal constituinte dos fundos oceânicos.",
       "fonte": "https://pt.wikipedia.org/wiki/Terra#Superf%C3%ADcie"
     },
-    "rotação": "0,99 Dias",
-    "revolução": "365,26 Dias",
+    "rotacao": "0,99 Dias",
+    "revolucao": "365,26 Dias",
     "raio": "6.371 KM",
     "temperatura": "16°C",
     "imagens": {
-      "planeta": "./assets/planeta-terra.svg",
+      "planeta": "../../assets/img/Planetas/planet-earth.svg",
       "interno": "./assets/planeta-terra-interno.svg",
       "geologia": "./assets/geologia-terra.png"
     }
@@ -37,17 +37,89 @@
       "conteudo": "A característica mais conhecida de Júpiter é a Grande Mancha Vermelha, uma tempestade anticlônica persistente localizada a 22° ao sul do equador. Sabe-se que ela existe desde pelo menos 1831, e possivelmente desde 1665.",
       "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter#Grande_Mancha_Vermelha_e_outros_v%C3%B3rtices"
     },
-    "rotação": "9,93 Horas",
-    "revolução": "11,86 Anos",
+    "rotacao": "9,93 Horas",
+    "revolucao": "11,86 Anos",
     "raio": "69.911 KM",
     "temperatura": "-108°C",
     "imagens": {
-      "planeta": "./assets/planeta-jupiter.svg",
+      "planeta": "../../assets/img/Planetas/planet-jupiter.svg",
       "interno": "./assets/planeta-jupiter-interno.svg",
       "geologia": "./assets/geologia-jupiter.png"
     }
   },
-  
+  {
+    "nome": "Marte",
+    "visao_geral": {
+      "conteudo": "Marte é o quarto planeta a partir do Sol e o segundo menor planeta no Sistema Solar, sendo maior apenas que Mercúrio. Em inglês, Marte leva o nome do deus romano da guerra e é frequentemente chamado de \"Planeta Vermelho\".",
+      "fonte": "https://pt.wikipedia.org/wiki/Marte"
+    },
+    "estrutura": {
+      "conteudo": "Assim como a Terra, Marte se diferenciou em um núcleo metálico denso sobreposto por materiais menos densos. Inicialmente, os cientistas determinaram que o núcleo é pelo menos parcialmente líquido. Modelos atuais de sua estrutura interna implicam que o núcleo consiste principalmente de ferro e níquel, com cerca de 16-17% de enxofre.",
+      "fonte": "https://pt.wikipedia.org/wiki/Marte#Estrutura_interna"
+    },
+    "geologia": {
+      "conteudo": "Marte é um planeta terrestre cuja superfície é composta por minerais contendo silício e oxigênio, metais e outros elementos que normalmente constituem rochas. A superfície é principalmente composta de basalto toleítico, embora algumas partes sejam mais ricas em sílica do que o basalto típico.",
+      "fonte": "https://pt.wikipedia.org/wiki/Marte#Geologia_superficial"
+    },
+    "rotacao": "1,03 Dias",
+    "revolucao": "1,88 Anos",
+    "raio": "3.389,5 KM",
+    "temperatura": "-28°C",
+    "imagens": {
+      "planeta": "../../assets/img/Planetas/planet-mars.svg",
+      "interno": "../../assets/img/planeta-marte-interno.svg",
+      "geologia": "../../assets/img/geologia-marte.png"
+    }
+  },
+  {
+    "nome": "Netuno",
+    "visao_geral": {
+      "conteudo": "Netuno é o oitavo e mais distante planeta conhecido do Sol. No Sistema Solar, é o quarto maior planeta em diâmetro, o terceiro mais massivo e o planeta gigante mais denso. Ele possui uma massa 17 vezes maior que a da Terra, sendo mais massivo que seu gêmeo próximo, Urano.",
+      "fonte": "https://pt.wikipedia.org/wiki/Netuno"
+    },
+    "estrutura": {
+      "conteudo": "A estrutura interna de Netuno se assemelha à de Urano. Sua atmosfera forma cerca de 5% a 10% de sua massa e se estende talvez de 10% a 20% em direção ao núcleo. Concentrações crescentes de metano, amônia e água são encontradas nas regiões mais baixas.",
+      "fonte": "https://pt.wikipedia.org/wiki/Netuno#Estrutura_interna"
+    },
+    "geologia": {
+      "conteudo": "A atmosfera de Netuno é composta por 80% de hidrogênio e 19% de hélio. Uma pequena quantidade de metano também está presente. Bandas de absorção proeminentes de metano existem em comprimentos de onda acima de 600 nm, na porção vermelha e infravermelha do espectro.",
+      "fonte": "https://pt.wikipedia.org/wiki/Netuno#Atmosfera"
+    },
+    "rotacao": "16,08 Horas",
+    "revolucao": "164,79 Anos",
+    "raio": "24.622 KM",
+    "temperatura": "-201°C",
+    "imagens": {
+      "planeta": "../../assets/img/Planetas/planet-neptune.svg",
+      "interno": "./assets/planeta-netuno-interno.svg",
+      "geologia": "./assets/geologia-netuno.png"
+    }
+  },
+  {
+    "nome": "Saturno",
+    "visao_geral": {
+      "conteudo": "Saturno é o sexto planeta a partir do Sol e o segundo maior do Sistema Solar, após Júpiter. É um gigante gasoso com um raio médio cerca de nove vezes e meio o da Terra. Sua densidade média é apenas um oitavo da densidade média da Terra.",
+      "fonte": "https://pt.wikipedia.org/wiki/Saturno"
+    },
+    "estrutura": {
+      "conteudo": "Apesar de consistir principalmente de hidrogênio e hélio, a maior parte da massa de Saturno não está na fase gasosa, pois o hidrogênio se torna um líquido não ideal quando a densidade está acima de 0,01 g/cm³, o que é alcançado em um raio que contém 99,9% da massa de Saturno.",
+      "fonte": "https://pt.wikipedia.org/wiki/Saturno#Estrutura_interna"
+    },
+    "geologia": {
+      "conteudo": "A atmosfera externa de Saturno contém 96,3% de hidrogênio molecular e 3,25% de hélio em volume. A característica mais famosa do planeta é seu proeminente sistema de anéis, que é composto principalmente por partículas de gelo com uma pequena quantidade de detritos rochosos e poeira.",
+      "fonte": "https://pt.wikipedia.org/wiki/Saturno#Atmosfera"
+    },
+    "rotacao": "10,8 Horas",
+    "revolucao": "29,46 Anos",
+    "raio": "58.232 KM",
+    "temperatura": "-138°C",
+    "imagens": {
+      "planeta": "../../assets/img/Planetas/planet-saturn.svg",
+      "interno": "./assets/planeta-saturno-interno.svg",
+      "geologia": "./assets/geologia-saturno.png"
+    }
+  },
+
     {
         "nome": "Mercúrio",
         "visao_geral": {
@@ -62,90 +134,16 @@
           "conteudo": "A superfície de Mercúrio é semelhante à da Lua, com extensas planícies semelhantes a mares e crateras profundas, indicando que ele tem sido geologicamente inativo por bilhões de anos. É mais heterogêneo do que Marte ou a Lua.",
           "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)#Geologia_da_superf%C3%ADcie"
         },
-        "rotação": "58,6 Dias",
-        "revolução": "87,97 Dias",
+        "rotacao": "58,6 Dias",
+        "revolucao": "87,97 Dias",
         "raio": "2.439,7 KM",
         "temperatura": "430°C",
         "imagens": {
-          "planeta": "./assets/planeta-mercurio.svg",
+          "planeta": "../../assets/img/Planetas/planet-mercury.svg",
           "interno": "./assets/planeta-mercurio-interno.svg",
           "geologia": "./assets/geologia-mercurio.png"
         }
     },
-    {
-      "nome": "Vênus",
-      "visao_geral": {
-        "conteudo": "Vênus é o segundo planeta a partir do Sol. Ele recebe o nome da deusa romana do amor e da beleza. Como o objeto natural mais brilhante no céu noturno da Terra após a Lua, Vênus pode projetar sombras e, em raras ocasiões, pode ser visível a olho nu durante o dia.",
-        "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus"
-      },
-      "estrutura": {
-        "conteudo": "A semelhança em tamanho e densidade entre Vênus e a Terra sugere que eles compartilham uma estrutura interna semelhante: um núcleo, manto e crosta. Assim como na Terra, o núcleo de Vênus provavelmente é pelo menos parcialmente líquido, porque os dois planetas estão esfriando a uma taxa semelhante.",
-        "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus#Estrutura_interna"
-      },
-      "geologia": {
-        "conteudo": "Grande parte da superfície de Vênus parece ter sido moldada pela atividade vulcânica. Vênus tem várias vezes mais vulcões do que a Terra, e possui 167 grandes vulcões com mais de 100 km de diâmetro. O único complexo vulcânico deste tamanho na Terra é a Ilha Grande do Havaí.",
-        "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus#Geologia_da_superf%C3%ADcie"
-      },
-      "rotação": "243 Dias",
-      "revolução": "224,7 Dias",
-      "raio": "6.051,8 KM",
-      "temperatura": "471°C",
-      "imagens": {
-        "planeta": "./assets/planeta-venus.svg",
-        "interno": "./assets/planeta-venus-interno.svg",
-        "geologia": "./assets/geologia-venus.png"
-      }
-    },
-    {
-      "nome": "Marte",
-      "visao_geral": {
-        "conteudo": "Marte é o quarto planeta a partir do Sol e o segundo menor planeta no Sistema Solar, sendo maior apenas que Mercúrio. Em inglês, Marte leva o nome do deus romano da guerra e é frequentemente chamado de \"Planeta Vermelho\".",
-        "fonte": "https://pt.wikipedia.org/wiki/Marte"
-      },
-      "estrutura": {
-        "conteudo": "Assim como a Terra, Marte se diferenciou em um núcleo metálico denso sobreposto por materiais menos densos. Inicialmente, os cientistas determinaram que o núcleo é pelo menos parcialmente líquido. Modelos atuais de sua estrutura interna implicam que o núcleo consiste principalmente de ferro e níquel, com cerca de 16-17% de enxofre.",
-        "fonte": "https://pt.wikipedia.org/wiki/Marte#Estrutura_interna"
-      },
-      "geologia": {
-        "conteudo": "Marte é um planeta terrestre cuja superfície é composta por minerais contendo silício e oxigênio, metais e outros elementos que normalmente constituem rochas. A superfície é principalmente composta de basalto toleítico, embora algumas partes sejam mais ricas em sílica do que o basalto típico.",
-        "fonte": "https://pt.wikipedia.org/wiki/Marte#Geologia_superficial"
-      },
-      "rotacao": "1,03 Dias",
-      "revolucao": "1,88 Anos",
-      "raio": "3.389,5 KM",
-      "temperatura": "-28°C",
-      "imagens": {
-        "planeta": "./assets/planeta-marte.svg",
-        "interno": "./assets/planeta-marte-interno.svg",
-        "geologia": "./assets/geologia-marte.png"
-      }
-    },
-
-    {
-      "nome": "Saturno",
-      "visao_geral": {
-        "conteudo": "Saturno é o sexto planeta a partir do Sol e o segundo maior do Sistema Solar, após Júpiter. É um gigante gasoso com um raio médio cerca de nove vezes e meio o da Terra. Sua densidade média é apenas um oitavo da densidade média da Terra.",
-        "fonte": "https://pt.wikipedia.org/wiki/Saturno"
-      },
-      "estrutura": {
-        "conteudo": "Apesar de consistir principalmente de hidrogênio e hélio, a maior parte da massa de Saturno não está na fase gasosa, pois o hidrogênio se torna um líquido não ideal quando a densidade está acima de 0,01 g/cm³, o que é alcançado em um raio que contém 99,9% da massa de Saturno.",
-        "fonte": "https://pt.wikipedia.org/wiki/Saturno#Estrutura_interna"
-      },
-      "geologia": {
-        "conteudo": "A atmosfera externa de Saturno contém 96,3% de hidrogênio molecular e 3,25% de hélio em volume. A característica mais famosa do planeta é seu proeminente sistema de anéis, que é composto principalmente por partículas de gelo com uma pequena quantidade de detritos rochosos e poeira.",
-        "fonte": "https://pt.wikipedia.org/wiki/Saturno#Atmosfera"
-      },
-      "rotação": "10,8 Horas",
-      "revolução": "29,46 Anos",
-      "raio": "58.232 KM",
-      "temperatura": "-138°C",
-      "imagens": {
-        "planeta": "./assets/planeta-saturno.svg",
-        "interno": "./assets/planeta-saturno-interno.svg",
-        "geologia": "./assets/geologia-saturno.png"
-      }
-    },
-    
     {
       "nome": "Urano",
       "visao_geral": {
@@ -165,34 +163,35 @@
       "raio": "25.362 KM",
       "temperatura": "-195°C",
       "imagens": {
-        "planeta": "./assets/planeta-urano.svg",
+        "planeta": "../../assets/img/Planetas/planet-uranus.svg",
         "interno": "./assets/planeta-urano-interno.svg",
         "geologia": "./assets/geologia-urano.png"
       }
     },
+
     {
-      "nome": "Netuno",
+      "nome": "Vênus",
       "visao_geral": {
-        "conteudo": "Netuno é o oitavo e mais distante planeta conhecido do Sol. No Sistema Solar, é o quarto maior planeta em diâmetro, o terceiro mais massivo e o planeta gigante mais denso. Ele possui uma massa 17 vezes maior que a da Terra, sendo mais massivo que seu gêmeo próximo, Urano.",
-        "fonte": "https://pt.wikipedia.org/wiki/Netuno"
+        "conteudo": "Vênus é o segundo planeta a partir do Sol. Ele recebe o nome da deusa romana do amor e da beleza. Como o objeto natural mais brilhante no céu noturno da Terra após a Lua, Vênus pode projetar sombras e, em raras ocasiões, pode ser visível a olho nu durante o dia.",
+        "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus"
       },
       "estrutura": {
-        "conteudo": "A estrutura interna de Netuno se assemelha à de Urano. Sua atmosfera forma cerca de 5% a 10% de sua massa e se estende talvez de 10% a 20% em direção ao núcleo. Concentrações crescentes de metano, amônia e água são encontradas nas regiões mais baixas.",
-        "fonte": "https://pt.wikipedia.org/wiki/Netuno#Estrutura_interna"
+        "conteudo": "A semelhança em tamanho e densidade entre Vênus e a Terra sugere que eles compartilham uma estrutura interna semelhante: um núcleo, manto e crosta. Assim como na Terra, o núcleo de Vênus provavelmente é pelo menos parcialmente líquido, porque os dois planetas estão esfriando a uma taxa semelhante.",
+        "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus#Estrutura_interna"
       },
       "geologia": {
-        "conteudo": "A atmosfera de Netuno é composta por 80% de hidrogênio e 19% de hélio. Uma pequena quantidade de metano também está presente. Bandas de absorção proeminentes de metano existem em comprimentos de onda acima de 600 nm, na porção vermelha e infravermelha do espectro.",
-        "fonte": "https://pt.wikipedia.org/wiki/Netuno#Atmosfera"
+        "conteudo": "Grande parte da superfície de Vênus parece ter sido moldada pela atividade vulcânica. Vênus tem várias vezes mais vulcões do que a Terra, e possui 167 grandes vulcões com mais de 100 km de diâmetro. O único complexo vulcânico deste tamanho na Terra é a Ilha Grande do Havaí.",
+        "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus#Geologia_da_superf%C3%ADcie"
       },
-      "rotacao": "16,08 Horas",
-      "revolucao": "164,79 Anos",
-      "raio": "24.622 KM",
-      "temperatura": "-201°C",
+      "rotacao": "243 Dias",
+      "revolucao": "224,7 Dias",
+      "raio": "6.051,8 KM",
+      "temperatura": "471°C",
       "imagens": {
-        "planeta": "./assets/planeta-netuno.svg",
-        "interno": "./assets/planeta-netuno-interno.svg",
-        "geologia": "./assets/geologia-netuno.png"
+        "planeta": "../../assets/img/Planetas/planet-venus.svg",
+        "interno": "./assets/planeta-venus-interno.svg",
+        "geologia": "./assets/geologia-venus.png"
       }
     }
-    
+
   ]
