@@ -98,7 +98,7 @@ export const Conteudo = styled.p`
   @media (max-width: 1024px) {
     width: 339px;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 768px) {
     text-align: center;
   }
 `;

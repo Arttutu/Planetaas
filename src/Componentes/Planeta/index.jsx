@@ -3,6 +3,7 @@ import {
   Botao,
   Box,
   ContainerBotao,
+  ContainerBotaoMobile,
   ContainerInfo,
   ContainerPlaneta,
   ContainerWiki,

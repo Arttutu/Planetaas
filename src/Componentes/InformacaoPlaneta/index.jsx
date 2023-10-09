@@ -34,6 +34,9 @@ const BoxInfo = styled.div`
   }
   @media (max-width: 768px) {
     width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 `;
 const Info = styled.h2`
@@ -42,6 +45,9 @@ const Info = styled.h2`
   font-size: 42px;
   @media (max-width: 1024px) {
     font-size: 24px;
+  }
+  @media (max-width: 768px) {
+    font-size: 20px;
   }
 `;
 const Descricao = styled.p`
