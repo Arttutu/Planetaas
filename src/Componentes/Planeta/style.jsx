@@ -17,7 +17,7 @@ export const ContainerPlaneta = styled.section`
   box-sizing: border-box;
   height: 80vh;
   gap: 280px;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -28,10 +28,12 @@ export const ContainerPlaneta = styled.section`
     gap: 100px;
     height: auto;
   }
+  @media (max-width: 768px) {
+  }
 `;
 export const Box = styled.div`
   gap: 1em;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -44,10 +46,13 @@ export const ContainerInfo = styled.div`
   flex-direction: column;
   gap: 2em;
   width: 350px;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
 `;
 export const Titulo = styled.h1`
@@ -55,11 +60,18 @@ export const Titulo = styled.h1`
   color: ${CorBranca};
   font-size: 80px;
   line-height: 103px;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 export const ContainerWiki = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
+  @media (max-width: 768px) {
+    text-align: center;
+    justify-content: center;
+  }
 `;
 export const Wiki = styled.a`
   color: ${CorCinzaClara};
@@ -73,7 +85,7 @@ export const Span = styled.span`
   line-height: 25px;
 `;
 export const Imagem = styled.img`
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 285px;
     height: 285px;
   }
@@ -83,8 +95,11 @@ export const Conteudo = styled.p`
   color: ${CorBranca};
   font-size: 16px;
   line-height: 25px;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 339px;
+  }
+  @media (max-width: 375px) {
+    text-align: center;
   }
 `;
 export const ContainerBotao = styled.div`
@@ -92,6 +107,9 @@ export const ContainerBotao = styled.div`
   box-sizing: border-box;
   flex-direction: column;
   gap: 16px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 export const Botao = styled.button`
   width: 350px;
@@ -109,7 +127,7 @@ export const Botao = styled.button`
   text-transform: uppercase;
   text-align: left;
   padding-left: 28px;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 281px;
     height: 40px;
   }

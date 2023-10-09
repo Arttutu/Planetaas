@@ -7,12 +7,15 @@ const ContainerInfo = styled.div`
   align-items: left;
   justify-content: end;
   gap: 30px;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin-top: 20px;
     gap: 11px;
     align-items: center;
     padding: 0 34px;
     justify-content: center;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
 `;
 const BoxInfo = styled.div`
@@ -25,16 +28,19 @@ const BoxInfo = styled.div`
   padding-top: 20px;
   padding-left: 23px;
   border: 1px solid ${CorCinza};
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 164px;
     height: 88px;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
 const Info = styled.h2`
   color: ${CorBranca};
   font-family: ${FontAntonio};
   font-size: 42px;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     font-size: 24px;
   }
 `;

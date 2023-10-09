@@ -8,9 +8,14 @@ export const MainStyle = styled.main`
   background-image: url("../../assets/img/Outros/background-stars.svg");
   background-size: cover;
   background-repeat: repeat;
+  @media (max-width: 1024px) {
+    width: 100vw;
+    height: 100%;
+    padding: 50px 0;
+  }
   @media (max-width: 768px) {
-    max-width: 768px;
-    height: 1024px;
+    width: 100vw;
+    height: 100%;
   }
 `;
 export const Conteiner = styled.div`
