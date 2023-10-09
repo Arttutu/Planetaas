@@ -12,9 +12,31 @@ export const ContainerPlaneta = styled.section`
   display: flex;
   align-items: center;
   justify-content: right;
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
   height: 80vh;
   gap: 280px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 150px;
+    margin-left: 39px;
+    margin-right: 39px;
+    gap: 100px;
+    height: auto;
+  }
+`;
+export const Box = styled.div`
+  gap: 1em;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+  }
 `;
 export const ContainerInfo = styled.div`
   display: flex;
@@ -22,6 +44,11 @@ export const ContainerInfo = styled.div`
   flex-direction: column;
   gap: 2em;
   width: 350px;
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
 `;
 export const Titulo = styled.h1`
   font-style: ${FontAntonio};
@@ -45,11 +72,20 @@ export const Span = styled.span`
   opacity: 50%;
   line-height: 25px;
 `;
+export const Imagem = styled.img`
+  @media (max-width: 768px) {
+    width: 285px;
+    height: 285px;
+  }
+`;
 export const Conteudo = styled.p`
   font-style: ${FontSpartan};
   color: ${CorBranca};
-  font-size: 22px;
+  font-size: 16px;
   line-height: 25px;
+  @media (max-width: 768px) {
+    width: 339px;
+  }
 `;
 export const ContainerBotao = styled.div`
   display: flex;
@@ -73,4 +109,8 @@ export const Botao = styled.button`
   text-transform: uppercase;
   text-align: left;
   padding-left: 28px;
+  @media (max-width: 768px) {
+    width: 281px;
+    height: 40px;
+  }
 `;

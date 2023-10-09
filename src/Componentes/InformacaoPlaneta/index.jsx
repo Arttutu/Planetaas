@@ -1,18 +1,19 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  CorBranca,
-  CorCinza,
-  CorCinzaClara,
-  FontAntonio,
-  FontSpartan,
-} from "../Variaveis";
+import { CorBranca, CorCinza, FontAntonio, FontSpartan } from "../Variaveis";
 
 const ContainerInfo = styled.div`
   display: flex;
   align-items: left;
   justify-content: end;
   gap: 30px;
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    gap: 11px;
+    align-items: center;
+    padding: 0 34px;
+    justify-content: center;
+  }
 `;
 const BoxInfo = styled.div`
   display: flex;
@@ -24,11 +25,18 @@ const BoxInfo = styled.div`
   padding-top: 20px;
   padding-left: 23px;
   border: 1px solid ${CorCinza};
+  @media (max-width: 768px) {
+    width: 164px;
+    height: 88px;
+  }
 `;
 const Info = styled.h2`
   color: ${CorBranca};
   font-family: ${FontAntonio};
   font-size: 42px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `;
 const Descricao = styled.p`
   font-family: ${FontSpartan};

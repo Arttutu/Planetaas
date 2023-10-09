@@ -7,10 +7,14 @@ export const MainStyle = styled.main`
   background-color: ${CorFundo};
   background-image: url("../../assets/img/Outros/background-stars.svg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  @media (max-width: 768px) {
+    max-width: 768px;
+    height: 1024px;
+  }
 `;
 export const Conteiner = styled.div`
-  width: 1100px;
+  max-width: 1100px;
   height: 756px;
   margin: 0 auto;
   height: auto;

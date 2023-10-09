@@ -1,11 +1,13 @@
 import React from "react";
 import {
   Botao,
+  Box,
   ContainerBotao,
   ContainerInfo,
   ContainerPlaneta,
   ContainerWiki,
   Conteudo,
+  Imagem,
   Span,
   Titulo,
   Wiki,
@@ -15,19 +17,21 @@ import IconeBusca from "./icon-source.svg";
 export default function Planeta({ nome, conteudo, imagem, link }) {
   return (
     <ContainerPlaneta>
-      <img src={imagem}></img>
+      <Imagem src={imagem}></Imagem>
       <ContainerInfo>
-        <Titulo>{nome}</Titulo>
-        <Conteudo>{conteudo}</Conteudo>
-        <ContainerWiki>
-          <Span>Fonte : </Span>
-          <Span>
-            <Wiki href={link} target="blank">
-              Wikpédia
-            </Wiki>
-          </Span>
-          <img src={IconeBusca}></img>
-        </ContainerWiki>
+        <Box>
+          <Titulo>{nome}</Titulo>
+          <Conteudo>{conteudo}</Conteudo>
+          <ContainerWiki>
+            <Span>Fonte : </Span>
+            <Span>
+              <Wiki href={link} target="blank">
+                Wikpédia
+              </Wiki>
+            </Span>
+            <img src={IconeBusca}></img>
+          </ContainerWiki>
+        </Box>
         <ContainerBotao>
           <Botao> 01 Sobre</Botao>
           <Botao> 02 Estrutura Interna</Botao>
