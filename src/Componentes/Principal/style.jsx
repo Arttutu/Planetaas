@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { CorFundo } from "../Variaveis";
 
-export const MainStyle = styled.main`
+export const StylePrincipal = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: ${CorFundo};

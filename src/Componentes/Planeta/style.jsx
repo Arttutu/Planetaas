@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import {
   CorBranca,
-  CorCinza,
   CorCinzaClara,
   CorFundo,
   FontAntonio,
@@ -15,7 +14,7 @@ export const ContainerPlaneta = styled.section`
   max-width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-  height: 80vh;
+  height: 70vh;
   gap: 280px;
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -130,5 +129,11 @@ export const Botao = styled.button`
   @media (max-width: 1024px) {
     width: 281px;
     height: 40px;
+  }
+
+  &:hover {
+    background-color: ${(props) => props.cor};
+    border: none;
+    cursor: pointer;
   }
 `;

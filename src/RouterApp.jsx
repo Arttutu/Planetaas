@@ -1,5 +1,5 @@
 import Index from "./Paginas/Index";
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Jupter from "./Paginas/Jupter";
 import Marte from "./Paginas/Marte";

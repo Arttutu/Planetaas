@@ -1,6 +1,8 @@
+
 [
   {
     "nome": "Terra",
+    "cor": "#6D2ED5",
     "visao_geral": {
       "conteudo": "Terceiro planeta a partir do Sol e o único planeta conhecido que abriga vida. Cerca de 29,2% da superfície da Terra é terra firme, com os restantes 70,8% cobertos de água. A distância da Terra ao Sol, as propriedades físicas e a história geológica permitiram a evolução e a prosperidade da vida.",
       "fonte": "https://pt.wikipedia.org/wiki/Terra"
@@ -25,6 +27,7 @@
   },
   {
     "nome": "Júpiter",
+    "cor": "#D83A34",
     "visao_geral": {
       "conteudo": "Júpiter é o quinto planeta a partir do Sol e o maior do Sistema Solar. É um gigante gasoso com uma massa duas vezes e meia maior que a de todos os outros planetas do Sistema Solar combinados, mas com menos de milésimo da massa do Sol.",
       "fonte": "https://pt.wikipedia.org/wiki/J%C3%BApiter"
@@ -49,6 +52,7 @@
   },
   {
     "nome": "Marte",
+    "cor": "#D14C32",
     "visao_geral": {
       "conteudo": "Marte é o quarto planeta a partir do Sol e o segundo menor planeta no Sistema Solar, sendo maior apenas que Mercúrio. Em inglês, Marte leva o nome do deus romano da guerra e é frequentemente chamado de \"Planeta Vermelho\".",
       "fonte": "https://pt.wikipedia.org/wiki/Marte"
@@ -73,6 +77,7 @@
   },
   {
     "nome": "Netuno",
+    "cor": "#2D68F0",
     "visao_geral": {
       "conteudo": "Netuno é o oitavo e mais distante planeta conhecido do Sol. No Sistema Solar, é o quarto maior planeta em diâmetro, o terceiro mais massivo e o planeta gigante mais denso. Ele possui uma massa 17 vezes maior que a da Terra, sendo mais massivo que seu gêmeo próximo, Urano.",
       "fonte": "https://pt.wikipedia.org/wiki/Netuno"
@@ -97,6 +102,7 @@
   },
   {
     "nome": "Saturno",
+    "cor": "#CD5120",
     "visao_geral": {
       "conteudo": "Saturno é o sexto planeta a partir do Sol e o segundo maior do Sistema Solar, após Júpiter. É um gigante gasoso com um raio médio cerca de nove vezes e meio o da Terra. Sua densidade média é apenas um oitavo da densidade média da Terra.",
       "fonte": "https://pt.wikipedia.org/wiki/Saturno"
@@ -122,6 +128,7 @@
 
     {
         "nome": "Mercúrio",
+        "cor": "#419EBB",
         "visao_geral": {
           "conteudo": "Mercúrio é o menor planeta do Sistema Solar e o mais próximo do Sol. Sua órbita ao redor do Sol leva 87,97 dias terrestres, a mais curta de todos os planetas do Sol. Mercúrio é um dos quatro planetas terrestres do Sistema Solar e é um corpo rochoso, assim como a Terra.",
           "fonte": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
@@ -146,6 +153,7 @@
     },
     {
       "nome": "Urano",
+      "cor": "#1EC1A2",
       "visao_geral": {
         "conteudo": "Urano é o sétimo planeta a partir do Sol. Seu nome é uma referência ao deus grego do céu, Urano, de acordo com a mitologia grega, foi o bisavô de Ares. Ele tem o terceiro maior raio planetário e a quarta maior massa planetária no Sistema Solar.",
         "fonte": "https://pt.wikipedia.org/wiki/Urano"
@@ -171,6 +179,7 @@
 
     {
       "nome": "Vênus",
+      "cor": "#EDA249",
       "visao_geral": {
         "conteudo": "Vênus é o segundo planeta a partir do Sol. Ele recebe o nome da deusa romana do amor e da beleza. Como o objeto natural mais brilhante no céu noturno da Terra após a Lua, Vênus pode projetar sombras e, em raras ocasiões, pode ser visível a olho nu durante o dia.",
         "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus"

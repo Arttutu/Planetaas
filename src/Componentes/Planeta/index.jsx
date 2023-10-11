@@ -3,7 +3,6 @@ import {
   Botao,
   Box,
   ContainerBotao,
-  ContainerBotaoMobile,
   ContainerInfo,
   ContainerPlaneta,
   ContainerWiki,
@@ -15,10 +14,10 @@ import {
 } from "./style";
 import IconeBusca from "./icon-source.svg";
 
-export default function Planeta({ nome, conteudo, imagem, link }) {
+export default function Planeta({ nome, conteudo, imagem, link, cor }) {
   return (
     <ContainerPlaneta>
-      <Imagem src={imagem}></Imagem>
+      <Imagem src={imagem} alt="Nome do planeta ainda vou adicionar"></Imagem>
       <ContainerInfo>
         <Box>
           <Titulo>{nome}</Titulo>
@@ -34,9 +33,9 @@ export default function Planeta({ nome, conteudo, imagem, link }) {
           </ContainerWiki>
         </Box>
         <ContainerBotao>
-          <Botao> 01 Sobre</Botao>
-          <Botao> 02 Estrutura Interna</Botao>
-          <Botao> 03 Geologia da superfíce</Botao>
+          <Botao cor={cor}> 01 Sobre</Botao>
+          <Botao cor={cor}> 02 Estrutura Interna</Botao>
+          <Botao cor={cor}> 03 Geologia da superfíce</Botao>
         </ContainerBotao>
       </ContainerInfo>
     </ContainerPlaneta>

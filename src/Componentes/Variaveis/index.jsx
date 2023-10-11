@@ -1,8 +1,9 @@
 export const CorFundo = "#070724";
 export const CorBranca = "#ffffff";
 export const CorCinza = "#38384F";
+export const CorLinha = "#979797";
 export const CorCinzaClara = "#838391";
-export const CorMercurio = "#1EC1A2";
+export const CorMercurio = "#419EBB";
 export const CorVenus = "#EDA249";
 export const CorTerra = "#6D2ED5";
 export const CorMarte = "#D14C32";
