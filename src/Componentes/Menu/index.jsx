@@ -27,7 +27,7 @@ export default function Menu({ cor }) {
             <LinkStyle to="/venus">
               <NavItemStyled cor={cor}>Venus</NavItemStyled>
             </LinkStyle>
-            <LinkStyle to="/">
+            <LinkStyle to="/  ">
               <NavItemStyled cor={cor}>Terra</NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/marte">
