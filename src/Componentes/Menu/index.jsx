@@ -1,6 +1,7 @@
 import React from "react";
 import {
   HeaderStyle,
+  Icone,
   LinhaStyle,
   ListaStyle,
   LogoStyle,
@@ -9,6 +10,8 @@ import {
 } from "./style";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { CorBranca } from "../Variaveis";
 
 const LinkStyle = styled(NavLink)`
   text-decoration: none;
@@ -19,6 +22,9 @@ export default function Menu({ cor }) {
     <>
       <HeaderStyle>
         <LogoStyle>the planets</LogoStyle>
+        <Icone>
+          <GiHamburgerMenu size={24} color={CorBranca} />
+        </Icone>
         <NavStyle>
           <ListaStyle>
             <LinkStyle to="/mercurio">
@@ -27,7 +33,7 @@ export default function Menu({ cor }) {
             <LinkStyle to="/venus">
               <NavItemStyled cor={cor}>Venus</NavItemStyled>
             </LinkStyle>
-            <LinkStyle to="/  ">
+            <LinkStyle to="/">
               <NavItemStyled cor={cor}>Terra</NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/marte">

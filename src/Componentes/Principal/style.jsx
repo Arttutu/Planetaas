@@ -11,7 +11,7 @@ export const StylePrincipal = styled.div`
   @media (max-width: 1024px) {
     width: 100vw;
     height: 100%;
-    padding: 50px 0;
+    padding-bottom: 50px;
   }
   @media (max-width: 768px) {
     width: 100vw;
