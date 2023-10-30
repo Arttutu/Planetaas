@@ -16,7 +16,7 @@ import styled from "styled-components";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CorBranca } from "../Variaveis";
 
-const LinkStyle = styled(NavLink)`
+export const LinkStyle = styled(NavLink)`
   text-decoration: none;
   cursor: pointer;
 `;

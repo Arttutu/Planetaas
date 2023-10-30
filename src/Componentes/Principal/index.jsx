@@ -3,28 +3,44 @@ import { Conteiner, StylePrincipal } from "./style";
 import Planeta from "../Planeta";
 import InformacaoPlaneta from "../InformacaoPlaneta";
 import Menu from "../Menu";
-export default function Principal({ dados, index }) {
+export default function Principal({
+  nome,
+  conteudo,
+  imagem,
+  link,
+  cor,
+  tablet,
+  mobile,
+  rotacao,
+  revolucao,
+  raio,
+  temperatura,
+  rotaUm,
+  rotaDois,
+}) {
   return (
     <>
       <StylePrincipal>
-        <Menu cor={dados[index].cor} />
+        <Menu cor={cor} />
         <main>
           <Conteiner>
             <Planeta
-              nome={dados[index].nome}
-              conteudo={dados[index].visao_geral.conteudo}
-              imagem={dados[index].imagens.planeta}
-              link={dados[index].visao_geral.fonte}
-              cor={dados[index].cor}
-              tablet={dados[index].tablet}
-              mobile={dados[index].mobile}
+              nome={nome}
+              conteudo={conteudo}
+              imagem={imagem}
+              link={link}
+              cor={cor}
+              tablet={tablet}
+              mobile={mobile}
+              rotaUm={rotaUm}
+              rotaDois={rotaDois}
             />
             ;
             <InformacaoPlaneta
-              rotacao={dados[index].rotacao}
-              revolucao={dados[index].revolucao}
-              raio={dados[index].raio}
-              temperatura={dados[index].temperatura}
+              rotacao={rotacao}
+              revolucao={revolucao}
+              raio={raio}
+              temperatura={temperatura}
             />
           </Conteiner>
         </main>

@@ -1,6 +1,7 @@
 
 [
   {
+    "index": "0",
     "nome": "Terra",
     "cor": "#6D2ED5",
     "tablet": "285px",
@@ -28,6 +29,7 @@
     }
   },
   {
+    "index": "1",
     "nome": "Júpiter",
     "cor": "#D83A34",
     "tablet": "369px",
@@ -50,11 +52,12 @@
     "temperatura": "-108°C",
     "imagens": {
       "planeta": "../../assets/img/Planetas/planet-jupiter.svg",
-      "interno": "./assets/planeta-jupiter-interno.svg",
+      "interno": "../../assets/img/interno/planet-jupiter-internal.svg",
       "geologia": "./assets/geologia-jupiter.png"
     }
   },
   {
+    "index": "2",
     "nome": "Marte",
     "cor": "#D14C32",
     "tablet": "213px",
@@ -82,6 +85,7 @@
     }
   },
   {
+    "index": "3",
     "nome": "Netuno",
     "cor": "#2D68F0",
     "tablet": "285px",
@@ -109,6 +113,7 @@
     }
   },
   {
+    "index": "4",
     "nome": "Saturno",
     "cor": "#CD5120",
     "tablet": "422px",
@@ -137,6 +142,7 @@
   },
 
     {
+      "index": "5",
         "nome": "Mercúrio",
         "cor": "#419EBB",
         "tablet": "184px",
@@ -164,6 +170,7 @@
         }
     },
     {
+      "index": "6",
       "nome": "Urano",
       "cor": "#1EC1A2",
       "tablet": "293px",
@@ -192,10 +199,11 @@
     },
 
     {
+      "index": "7",
       "nome": "Vênus",
       "cor": "#EDA249",
       "tablet": "253px",
-      "mobile": "154PX",
+      "mobile": "154px",
       "visao_geral": {
         "conteudo": "Vênus é o segundo planeta a partir do Sol. Ele recebe o nome da deusa romana do amor e da beleza. Como o objeto natural mais brilhante no céu noturno da Terra após a Lua, Vênus pode projetar sombras e, em raras ocasiões, pode ser visível a olho nu durante o dia.",
         "fonte": "https://pt.wikipedia.org/wiki/V%C3%AAnus"

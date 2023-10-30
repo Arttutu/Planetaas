@@ -134,7 +134,7 @@ export const Botao = styled.button`
   }
 
   &:hover {
-    background-color: ${(props) => props.cor};
+    background-color: ${(props) => props.$cor};
     border: none;
     cursor: pointer;
   }

@@ -13,6 +13,8 @@ import {
   Wiki,
 } from "./style";
 import IconeBusca from "./icon-source.svg";
+import { NavLink } from "react-router-dom";
+import { LinkStyle } from "../Menu";
 
 export default function Planeta({
   nome,
@@ -22,6 +24,8 @@ export default function Planeta({
   cor,
   tablet,
   mobile,
+  rotaUm,
+  rotaDois,
 }) {
   return (
     <ContainerPlaneta>
@@ -46,9 +50,13 @@ export default function Planeta({
           </ContainerWiki>
         </Box>
         <ContainerBotao>
-          <Botao cor={cor}> 01 Sobre</Botao>
-          <Botao cor={cor}> 02 Estrutura Interna</Botao>
-          <Botao cor={cor}> 03 Geologia da superfíce</Botao>
+          <LinkStyle to={rotaUm}>
+            <Botao $cor={cor}> 01 Sobre</Botao>
+          </LinkStyle>
+          <LinkStyle to={rotaDois}>
+            <Botao $cor={cor}> 02 Estrutura Interna</Botao>
+          </LinkStyle>
+          <Botao $cor={cor}> 03 Geologia da superfíce</Botao>
         </ContainerBotao>
       </ContainerInfo>
     </ContainerPlaneta>
