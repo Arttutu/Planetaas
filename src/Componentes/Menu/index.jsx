@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Botao,
   HeaderStyle,
   Icone,
   LinhaStyle,
@@ -7,6 +8,8 @@ import {
   LogoStyle,
   NavItemStyled,
   NavStyle,
+  SegundaNav,
+  SegundaNavLinha,
 } from "./style";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
@@ -54,6 +57,13 @@ export default function Menu({ cor }) {
           </ListaStyle>
         </NavStyle>
       </HeaderStyle>
+      <SegundaNavLinha />
+      <SegundaNav>
+        <Botao>Sobre</Botao>
+        <Botao>Estrutura</Botao>
+        <Botao>Geologia</Botao>
+      </SegundaNav>
+      <SegundaNavLinha />
       <LinhaStyle />
     </>
   );

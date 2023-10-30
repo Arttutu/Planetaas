@@ -1,5 +1,11 @@
 import styled from "styled-components";
-import { CorBranca, CorLinha, FontAntonio, FontSpartan } from "../Variaveis";
+import {
+  CorBranca,
+  CorFundo,
+  CorLinha,
+  FontAntonio,
+  FontSpartan,
+} from "../Variaveis";
 
 export const HeaderStyle = styled.header`
   display: flex;
@@ -13,9 +19,10 @@ export const HeaderStyle = styled.header`
     gap: 39px;
   }
   @media (max-width: 768px) {
+    padding: 0px 24px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 `;
 export const Icone = styled.div`
@@ -57,9 +64,26 @@ export const NavItemStyled = styled.li`
   line-height: 25px;
   transition: 0.5s;
   &:hover {
-    position: relative;
     border-top: 5px solid ${(props) => props.cor};
   }
+`;
+export const SegundaNav = styled.div`
+  display: none;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 43px;
+    padding: 20px;
+  }
+`;
+export const Botao = styled.button`
+  border: none;
+  text-transform: uppercase;
+  font-family: ${FontSpartan};
+  background-color: ${CorFundo};
+  color: ${CorBranca};
+  font-size: 16px;
 `;
 
 export const LinhaStyle = styled.div`
@@ -67,5 +91,14 @@ export const LinhaStyle = styled.div`
   opacity: 20%;
   @media (max-width: 1024px) {
     display: none;
+  }
+`;
+export const SegundaNavLinha = styled.div`
+  display: none;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid ${CorLinha};
+    opacity: 20%;
   }
 `;
