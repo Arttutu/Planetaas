@@ -16,6 +16,8 @@ export default function Principal({ dados, index }) {
               imagem={dados[index].imagens.planeta}
               link={dados[index].visao_geral.fonte}
               cor={dados[index].cor}
+              tablet={dados[index].tablet}
+              mobile={dados[index].mobile}
             />
             ;
             <InformacaoPlaneta

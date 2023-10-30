@@ -85,8 +85,10 @@ export const Span = styled.span`
 `;
 export const Imagem = styled.img`
   @media (max-width: 1024px) {
-    width: 285px;
-    height: 285px;
+    width: ${(props) => props.tablet};
+  }
+  @media (max-width: 768px) {
+    width: ${(props) => props.mobile};
   }
 `;
 export const Conteudo = styled.p`

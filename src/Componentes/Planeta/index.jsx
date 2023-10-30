@@ -14,10 +14,23 @@ import {
 } from "./style";
 import IconeBusca from "./icon-source.svg";
 
-export default function Planeta({ nome, conteudo, imagem, link, cor }) {
+export default function Planeta({
+  nome,
+  conteudo,
+  imagem,
+  link,
+  cor,
+  tablet,
+  mobile,
+}) {
   return (
     <ContainerPlaneta>
-      <Imagem src={imagem} alt="Nome do planeta ainda vou adicionar"></Imagem>
+      <Imagem
+        src={imagem}
+        tablet={tablet}
+        mobile={mobile}
+        alt="Nome do planeta ainda vou adicionar"
+      ></Imagem>
       <ContainerInfo>
         <Box>
           <Titulo>{nome}</Titulo>
