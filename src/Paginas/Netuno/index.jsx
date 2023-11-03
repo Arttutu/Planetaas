@@ -3,7 +3,7 @@ import Principal from "../../Componentes/Principal";
 import Dados from "../data.json";
 export default function Netuno() {
   const dados = Dados;
-  const index = 4;
+  const index = 3;
   return (
     <>
       <Principal
@@ -18,6 +18,8 @@ export default function Netuno() {
         revolucao={dados[index].revolucao}
         raio={dados[index].raio}
         temperatura={dados[index].temperatura}
+        rotaUm="/netuno"
+        rotaDois="/netuno-estrutura"
       />
     </>
   );

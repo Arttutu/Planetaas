@@ -24,7 +24,7 @@
     "temperatura": "16°C",
     "imagens": {
       "planeta": "../../assets/img/Planetas/planet-earth.svg",
-      "interno": "./assets/planeta-terra-interno.svg",
+      "interno": "../../assets/img/interno/planet-earth-internal.svg",
       "geologia": "./assets/geologia-terra.png"
     }
   },
@@ -80,7 +80,7 @@
     "temperatura": "-28°C",
     "imagens": {
       "planeta": "../../assets/img/Planetas/planet-mars.svg",
-      "interno": "../../assets/img/planeta-marte-interno.svg",
+      "interno": "../../assets/img/interno/planet-mars-internal.svg",
       "geologia": "../../assets/img/geologia-marte.png"
     }
   },
@@ -108,7 +108,7 @@
     "temperatura": "-201°C",
     "imagens": {
       "planeta": "../../assets/img/Planetas/planet-neptune.svg",
-      "interno": "./assets/planeta-netuno-interno.svg",
+      "interno": "../../assets/img/interno/planet-neptune-internal.svg",
       "geologia": "./assets/geologia-netuno.png"
     }
   },
@@ -136,7 +136,7 @@
     "temperatura": "-138°C",
     "imagens": {
       "planeta": "../../assets/img/Planetas/planet-saturn.svg",
-      "interno": "./assets/planeta-saturno-interno.svg",
+      "interno": "../../assets/img/interno/planet-saturn-internal.svg",
       "geologia": "./assets/geologia-saturno.png"
     }
   },
@@ -165,7 +165,7 @@
         "temperatura": "430°C",
         "imagens": {
           "planeta": "../../assets/img/Planetas/planet-mercury.svg",
-          "interno": "./assets/planeta-mercurio-interno.svg",
+          "interno": "../../assets/img/interno/planet-mercury-internal.svg",
           "geologia": "./assets/geologia-mercurio.png"
         }
     },
@@ -193,7 +193,7 @@
       "temperatura": "-195°C",
       "imagens": {
         "planeta": "../../assets/img/Planetas/planet-uranus.svg",
-        "interno": "./assets/planeta-urano-interno.svg",
+        "interno": "../../assets/img/interno/planet-uranus-internal.svg",
         "geologia": "./assets/geologia-urano.png"
       }
     },
@@ -222,7 +222,7 @@
       "temperatura": "471°C",
       "imagens": {
         "planeta": "../../assets/img/Planetas/planet-venus.svg",
-        "interno": "./assets/planeta-venus-interno.svg",
+        "interno": "../../assets/img/interno/planet-venus-internal.svg",
         "geologia": "./assets/geologia-venus.png"
       }
     }

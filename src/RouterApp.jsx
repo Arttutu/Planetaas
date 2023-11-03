@@ -9,6 +9,11 @@ import Mercurio from "./Paginas/Mercurio";
 import Uranos from "./Paginas/Uranus";
 import Venus from "./Paginas/Venus";
 import JupterEstrutura from "./Paginas/Jupter-estrutura";
+import MarteEstrutura from "./Paginas/Marte-estrutura";
+import MercurioEstrutura from "./Paginas/Mercurio-estrutura";
+import NetunoEstrutura from "./Paginas/Netuno-estrutura";
+import SaturnoEstrutura from "./Paginas/Saturno-estrutura";
+import TerraEstrutura from "./Paginas/Terra-estruturada";
 
 function RouterApp() {
   return (
@@ -16,12 +21,17 @@ function RouterApp() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Index />} />
+          <Route path="/terra-estrutura" element={<TerraEstrutura />} />
           <Route path="/jupter" element={<Jupter />} />
           <Route path="/jupter-estrutura" element={<JupterEstrutura />} />
           <Route path="/marte" element={<Marte />} />
+          <Route path="/marte-estrutura" element={<MarteEstrutura />} />
           <Route path="/netuno" element={<Netuno />} />
+          <Route path="/netuno-estrutura" element={<NetunoEstrutura />} />
           <Route path="/saturno" element={<Saturno />} />
+          <Route path="/saturno-estrutura" element={<SaturnoEstrutura />} />
           <Route path="/mercurio" element={<Mercurio />} />
+          <Route path="/mercurio-estrutura" element={<MercurioEstrutura />} />
           <Route path="/uranus" element={<Uranos />} />
           <Route path="/venus" element={<Venus />} />
         </Routes>

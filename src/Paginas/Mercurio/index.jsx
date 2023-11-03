@@ -3,7 +3,7 @@ import Principal from "../../Componentes/Principal";
 import Dados from "../data.json";
 export default function Mercurio() {
   const dados = Dados;
-  const index = 3;
+  const index = 5;
   return (
     <>
       <Principal
@@ -18,6 +18,8 @@ export default function Mercurio() {
         revolucao={dados[index].revolucao}
         raio={dados[index].raio}
         temperatura={dados[index].temperatura}
+        rotaUm="/mercurio"
+        rotaDois="/mercurio-estrutura"
       />
     </>
   );

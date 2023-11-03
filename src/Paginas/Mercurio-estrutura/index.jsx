@@ -2,16 +2,16 @@ import React from "react";
 import Principal from "../../Componentes/Principal";
 import Dados from "../data.json";
 
-export default function Saturno() {
+export default function MercurioEstrutura() {
   const dados = Dados;
-  const index = 4;
+  const index = 5;
   return (
     <>
       <Principal
         nome={dados[index].nome}
-        conteudo={dados[index].visao_geral.conteudo}
-        imagem={dados[index].imagens.planeta}
-        link={dados[index].visao_geral.fonte}
+        conteudo={dados[index].estrutura.conteudo}
+        imagem={dados[index].imagens.interno}
+        link={dados[index].estrutura.fonte}
         cor={dados[index].cor}
         tablet={dados[index].tablet}
         mobile={dados[index].mobile}
@@ -19,8 +19,8 @@ export default function Saturno() {
         revolucao={dados[index].revolucao}
         raio={dados[index].raio}
         temperatura={dados[index].temperatura}
-        rotaUm="/saturno"
-        rotaDois="/saturno-estrutura"
+        rotaUm="/mercurio"
+        rotaDois="/mercurio-estrutura"
       />
     </>
   );
