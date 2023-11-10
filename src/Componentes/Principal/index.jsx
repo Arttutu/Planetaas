@@ -21,7 +21,7 @@ export default function Principal({
   return (
     <>
       <StylePrincipal>
-        <Menu cor={cor} />
+        <Menu cor={cor} rotaUm={rotaUm} rotaDois={rotaDois} />
         <main>
           <Conteiner>
             <Planeta

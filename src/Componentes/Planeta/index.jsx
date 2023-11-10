@@ -14,8 +14,15 @@ import {
 } from "./style";
 import IconeBusca from "./icon-source.svg";
 import { NavLink } from "react-router-dom";
-import { LinkStyle } from "../Menu";
+import styled from "styled-components";
 
+export const LinkStylePlanetas = styled(NavLink)`
+  text-decoration: none;
+  cursor: pointer;
+  &.active {
+    background-color: red;
+  }
+`;
 export default function Planeta({
   nome,
   conteudo,
@@ -50,12 +57,25 @@ export default function Planeta({
           </ContainerWiki>
         </Box>
         <ContainerBotao>
-          <LinkStyle to={rotaUm}>
-            <Botao $cor={cor}> 01 Sobre</Botao>
-          </LinkStyle>
-          <LinkStyle to={rotaDois}>
-            <Botao $cor={cor}> 02 Estrutura Interna</Botao>
-          </LinkStyle>
+          <LinkStylePlanetas
+            cor={cor}
+            to={rotaUm}
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            <Botao className={({ isActive }) => (isActive ? "active" : "")}>
+              01 Sobre
+            </Botao>
+          </LinkStylePlanetas>
+          <LinkStylePlanetas
+            cor={cor}
+            to={rotaDois}
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            <Botao className={({ isActive }) => (isActive ? "active" : "")}>
+              02 Estrutura Interna
+            </Botao>
+          </LinkStylePlanetas>
+
           <Botao $cor={cor}> 03 Geologia da superfíce</Botao>
         </ContainerBotao>
       </ContainerInfo>

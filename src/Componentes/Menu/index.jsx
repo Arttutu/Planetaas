@@ -19,8 +19,10 @@ import { CorBranca } from "../Variaveis";
 export const LinkStyle = styled(NavLink)`
   text-decoration: none;
   cursor: pointer;
+  &.active {
+  }
 `;
-export default function Menu({ cor }) {
+export default function Menu({ cor, rotaUm, rotaDois }) {
   return (
     <>
       <HeaderStyle>
@@ -59,9 +61,15 @@ export default function Menu({ cor }) {
       </HeaderStyle>
       <SegundaNavLinha />
       <SegundaNav>
-        <Botao>Sobre</Botao>
-        <Botao>Estrutura</Botao>
-        <Botao>Geologia</Botao>
+        <LinkStyle to={rotaUm}>
+          <Botao>Sobre</Botao>
+        </LinkStyle>
+        <LinkStyle to={rotaDois}>
+          <Botao>Estrutura</Botao>
+        </LinkStyle>
+        <LinkStyle>
+          <Botao>Geologia</Botao>
+        </LinkStyle>
       </SegundaNav>
       <SegundaNavLinha />
       <LinhaStyle />

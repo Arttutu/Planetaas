@@ -18,6 +18,8 @@ export default function Venus() {
         revolucao={dados[index].revolucao}
         raio={dados[index].raio}
         temperatura={dados[index].temperatura}
+        rotaUm="/venus"
+        rotaDois="/venus-estrutura"
       />
     </>
   );

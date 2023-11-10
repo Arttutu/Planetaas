@@ -132,9 +132,11 @@ export const Botao = styled.button`
     width: 281px;
     height: 40px;
   }
-
+  &:active {
+    background-color: ${(cor) => cor};
+  }
   &:hover {
-    background-color: ${(props) => props.$cor};
+    background-color: ${CorCinzaClara};
     border: none;
     cursor: pointer;
   }

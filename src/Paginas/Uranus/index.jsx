@@ -18,6 +18,8 @@ export default function Uranos() {
         revolucao={dados[index].revolucao}
         raio={dados[index].raio}
         temperatura={dados[index].temperatura}
+        rotaUm="/uranus"
+        rotaDois="/uranus-estrutura"
       />
     </>
   );
