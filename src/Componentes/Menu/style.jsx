@@ -20,7 +20,7 @@ export const HeaderStyle = styled.header`
   }
   @media (max-width: 768px) {
     padding: 0px 24px;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
@@ -54,6 +54,9 @@ export const ListaStyle = styled.ul`
   align-items: center;
   justify-content: center;
   gap: 33px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 export const NavItemStyled = styled.li`
   color: ${CorBranca};
