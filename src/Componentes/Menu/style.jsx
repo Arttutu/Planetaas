@@ -105,3 +105,10 @@ export const SegundaNavLinha = styled.div`
     opacity: 20%;
   }
 `;
+export const BolinhaPlaneta = styled.div`
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  color: ${(props) => props.cor};
+  background-color: ${(props) => props.cor};
+`;

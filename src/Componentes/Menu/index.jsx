@@ -12,15 +12,16 @@ import {
   SegundaNavLinha,
 } from "./style";
 import { NavLink } from "react-router-dom";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { CorBranca, CorFundo } from "../Variaveis";
+import { CorBranca } from "../Variaveis";
+import MenuMobile from "../MenuMobile";
 
 export const LinkStyle = styled(NavLink)`
+  display: flex;
+  align-items: center;
   text-decoration: none;
   cursor: pointer;
-  &.active {
-  }
 `;
 export const Caixa = styled.div`
   @media (max-width: 768px) {
@@ -30,41 +31,7 @@ export const Caixa = styled.div`
     width: 100%;
   }
 `;
-export const ListaStyleMobile = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-`;
-export const NavMobile = styled.nav`
-  display: none;
-  @media (max-width: 768px) {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    height: 95vh;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    top: 50px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: ${CorFundo};
-    transition: 0.5s;
-    z-index: 5;
-    opacity: 0;
-    pointer-events: none;
 
-    ${({ menuAberto }) =>
-      menuAberto
-        ? css`
-            opacity: 1;
-            pointer-events: auto;
-          `
-        : ""}
-  }
-`;
 export default function Menu({ cor, rotaUm, rotaDois }) {
   const [menuAberto, setMenuAberto] = useState(false);
   return (
@@ -104,34 +71,7 @@ export default function Menu({ cor, rotaUm, rotaDois }) {
             </LinkStyle>
           </ListaStyle>
         </NavStyle>
-        <NavMobile menuAberto={menuAberto}>
-          <ListaStyleMobile>
-            <LinkStyle to="/mercurio">
-              <NavItemStyled cor={cor}>Mercurio</NavItemStyled>
-            </LinkStyle>
-            <LinkStyle to="/venus">
-              <NavItemStyled cor={cor}>Venus</NavItemStyled>
-            </LinkStyle>
-            <LinkStyle to="/">
-              <NavItemStyled cor={cor}>Terra</NavItemStyled>
-            </LinkStyle>
-            <LinkStyle to="/marte">
-              <NavItemStyled cor={cor}>Marte</NavItemStyled>
-            </LinkStyle>
-            <LinkStyle to="/jupter">
-              <NavItemStyled cor={cor}>Jupter</NavItemStyled>
-            </LinkStyle>
-            <LinkStyle to="/saturno">
-              <NavItemStyled cor={cor}>Saturno</NavItemStyled>
-            </LinkStyle>
-            <LinkStyle to="/uranus">
-              <NavItemStyled cor={cor}>Uranos</NavItemStyled>
-            </LinkStyle>
-            <LinkStyle to="/netuno">
-              <NavItemStyled cor={cor}>Netuno</NavItemStyled>
-            </LinkStyle>
-          </ListaStyleMobile>
-        </NavMobile>
+        <MenuMobile menuOpen={menuAberto} cor={cor} />
       </HeaderStyle>
       <SegundaNavLinha />
       <SegundaNav>
