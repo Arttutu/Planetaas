@@ -17,11 +17,17 @@ export default function Principal({
   temperatura,
   rotaUm,
   rotaDois,
+  corMenuMobile,
 }) {
   return (
     <>
       <StylePrincipal>
-        <Menu cor={cor} rotaUm={rotaUm} rotaDois={rotaDois} />
+        <Menu
+          cor={cor}
+          rotaUm={rotaUm}
+          rotaDois={rotaDois}
+          corMenuMobile={corMenuMobile}
+        />
         <main>
           <Conteiner>
             <Planeta

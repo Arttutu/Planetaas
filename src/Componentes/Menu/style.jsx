@@ -1,12 +1,27 @@
-import styled from "styled-components";
+import styled from "styled-components"
+import { NavLink } from "react-router-dom"
 import {
   CorBranca,
   CorFundo,
   CorLinha,
   FontAntonio,
   FontSpartan,
-} from "../Variaveis";
-
+} from "../Variaveis"
+export const LinkStyle = styled(NavLink)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+`
+export const Caixa = styled.div`
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+`
 export const HeaderStyle = styled.header`
   display: flex;
   justify-content: space-between;
@@ -24,20 +39,20 @@ export const HeaderStyle = styled.header`
     align-items: center;
     justify-content: space-between;
   }
-`;
+`
 export const Icone = styled.div`
   display: none;
   @media (max-width: 768px) {
     display: block;
     cursor: pointer;
   }
-`;
+`
 export const LogoStyle = styled.h1`
   font-size: 28px;
   font-family: ${FontAntonio};
   color: ${CorBranca};
   text-transform: uppercase;
-`;
+`
 export const NavStyle = styled.nav`
   width: 665px;
   height: 65px;
@@ -48,7 +63,7 @@ export const NavStyle = styled.nav`
   @media (max-width: 768px) {
     display: none;
   }
-`;
+`
 export const ListaStyle = styled.ul`
   display: flex;
   align-items: center;
@@ -57,7 +72,7 @@ export const ListaStyle = styled.ul`
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`;
+`
 export const NavItemStyled = styled.li`
   color: ${CorBranca};
   opacity: 70%;
@@ -69,7 +84,7 @@ export const NavItemStyled = styled.li`
   &:hover {
     border-top: 5px solid ${(props) => props.cor};
   }
-`;
+`
 export const SegundaNav = styled.div`
   display: none;
   @media (max-width: 768px) {
@@ -79,7 +94,7 @@ export const SegundaNav = styled.div`
     gap: 43px;
     padding: 20px;
   }
-`;
+`
 export const Botao = styled.button`
   border: none;
   text-transform: uppercase;
@@ -87,7 +102,8 @@ export const Botao = styled.button`
   background-color: ${CorFundo};
   color: ${CorBranca};
   font-size: 16px;
-`;
+  text-decoration: none;
+`
 
 export const LinhaStyle = styled.div`
   border-bottom: 1px solid ${CorLinha};
@@ -95,7 +111,7 @@ export const LinhaStyle = styled.div`
   @media (max-width: 1024px) {
     display: none;
   }
-`;
+`
 export const SegundaNavLinha = styled.div`
   display: none;
   @media (max-width: 768px) {
@@ -104,11 +120,11 @@ export const SegundaNavLinha = styled.div`
     border-bottom: 2px solid ${CorLinha};
     opacity: 20%;
   }
-`;
+`
 export const BolinhaPlaneta = styled.div`
   border-radius: 100%;
   width: 20px;
   height: 20px;
   color: ${(props) => props.cor};
   background-color: ${(props) => props.cor};
-`;
+`

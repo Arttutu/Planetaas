@@ -2,8 +2,8 @@ import React from "react";
 import Principal from "../../Componentes/Principal";
 import Dados from "../data.json";
 export default function Index() {
-  const dados = Dados;
   const index = 0;
+  const dados = Dados;
   return (
     <>
       <Principal
@@ -12,6 +12,7 @@ export default function Index() {
         imagem={dados[index].imagens.planeta}
         link={dados[index].visao_geral.fonte}
         cor={dados[index].cor}
+        corMenuMobile={dados[index].cor}
         tablet={dados[index].tablet}
         mobile={dados[index].mobile}
         rotacao={dados[index].rotacao}
@@ -21,6 +22,7 @@ export default function Index() {
         rotaUm="/"
         rotaDois="/terra-estrutura"
       />
+      - `
     </>
   );
 }

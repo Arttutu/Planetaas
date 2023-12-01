@@ -1,12 +1,19 @@
-import styled from "styled-components";
+import styled from "styled-components"
+import { NavLink } from "react-router-dom"
 import {
   CorBranca,
   CorCinzaClara,
   CorFundo,
   FontAntonio,
   FontSpartan,
-} from "../Variaveis";
-
+} from "../Variaveis"
+export const LinkStylePlanetas = styled(NavLink)`
+  text-decoration: none;
+  cursor: pointer;
+  &.active {
+    background-color: red;
+  }
+`
 export const ContainerPlaneta = styled.section`
   display: flex;
   align-items: center;
@@ -29,7 +36,7 @@ export const ContainerPlaneta = styled.section`
   }
   @media (max-width: 768px) {
   }
-`;
+`
 export const Box = styled.div`
   gap: 1em;
   @media (max-width: 1024px) {
@@ -38,7 +45,7 @@ export const Box = styled.div`
     justify-content: left;
     text-align: left;
   }
-`;
+`
 export const ContainerInfo = styled.div`
   display: flex;
   align-items: left;
@@ -53,7 +60,7 @@ export const ContainerInfo = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`;
+`
 export const Titulo = styled.h1`
   font-style: ${FontAntonio};
   color: ${CorBranca};
@@ -62,7 +69,7 @@ export const Titulo = styled.h1`
   @media (max-width: 768px) {
     text-align: center;
   }
-`;
+`
 export const ContainerWiki = styled.div`
   display: flex;
   align-items: center;
@@ -71,18 +78,18 @@ export const ContainerWiki = styled.div`
     text-align: center;
     justify-content: center;
   }
-`;
+`
 export const Wiki = styled.a`
   color: ${CorCinzaClara};
   font-weight: bold;
-`;
+`
 export const Span = styled.span`
   font-style: ${FontSpartan};
   font-size: 16px;
   color: ${CorBranca};
   opacity: 50%;
   line-height: 25px;
-`;
+`
 export const Imagem = styled.img`
   @media (max-width: 1024px) {
     width: ${(props) => props.tablet};
@@ -90,7 +97,7 @@ export const Imagem = styled.img`
   @media (max-width: 768px) {
     width: ${(props) => props.mobile};
   }
-`;
+`
 export const Conteudo = styled.p`
   font-style: ${FontSpartan};
   color: ${CorBranca};
@@ -102,7 +109,7 @@ export const Conteudo = styled.p`
   @media (max-width: 768px) {
     text-align: center;
   }
-`;
+`
 export const ContainerBotao = styled.div`
   display: flex;
   box-sizing: border-box;
@@ -111,7 +118,7 @@ export const ContainerBotao = styled.div`
   @media (max-width: 768px) {
     display: none;
   }
-`;
+`
 export const Botao = styled.button`
   width: 350px;
   display: flex;
@@ -140,4 +147,4 @@ export const Botao = styled.button`
     border: none;
     cursor: pointer;
   }
-`;
+`

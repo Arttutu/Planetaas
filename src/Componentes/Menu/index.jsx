@@ -1,39 +1,24 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   Botao,
+  Caixa,
   HeaderStyle,
   Icone,
   LinhaStyle,
+  LinkStyle,
   ListaStyle,
   LogoStyle,
   NavItemStyled,
   NavStyle,
   SegundaNav,
   SegundaNavLinha,
-} from "./style";
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { CorBranca } from "../Variaveis";
-import MenuMobile from "../MenuMobile";
+} from "./style"
+import { GiHamburgerMenu } from "react-icons/gi"
+import { CorBranca } from "../Variaveis"
+import MenuMobile from "../MenuMobile"
 
-export const LinkStyle = styled(NavLink)`
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  cursor: pointer;
-`;
-export const Caixa = styled.div`
-  @media (max-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-  }
-`;
-
-export default function Menu({ cor, rotaUm, rotaDois }) {
-  const [menuAberto, setMenuAberto] = useState(false);
+export default function Menu({ cor, rotaUm, rotaDois, corMenuMobile }) {
+  const [menuAberto, setMenuAberto] = useState(false)
   return (
     <>
       <HeaderStyle>
@@ -71,16 +56,20 @@ export default function Menu({ cor, rotaUm, rotaDois }) {
             </LinkStyle>
           </ListaStyle>
         </NavStyle>
-        <MenuMobile menuOpen={menuAberto} cor={cor} />
+        <MenuMobile
+          menuOpen={menuAberto}
+          cor={cor}
+          corMenuMobile={corMenuMobile}
+        />
       </HeaderStyle>
       <SegundaNavLinha />
       <SegundaNav>
-        <LinkStyle to={rotaUm}>
-          <Botao>Sobre</Botao>
-        </LinkStyle>
-        <LinkStyle to={rotaDois}>
-          <Botao>Estrutura</Botao>
-        </LinkStyle>
+        <Botao>
+          <LinkStyle to={rotaUm}>Sobre </LinkStyle>
+        </Botao>
+        <Botao>
+          <LinkStyle to={rotaDois}>Estrutura</LinkStyle>
+        </Botao>
         <LinkStyle>
           <Botao>Geologia</Botao>
         </LinkStyle>
@@ -88,5 +77,5 @@ export default function Menu({ cor, rotaUm, rotaDois }) {
       <SegundaNavLinha />
       <LinhaStyle />
     </>
-  );
+  )
 }

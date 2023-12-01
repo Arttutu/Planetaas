@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {
   Botao,
   Box,
@@ -8,21 +8,13 @@ import {
   ContainerWiki,
   Conteudo,
   Imagem,
+  LinkStylePlanetas,
   Span,
   Titulo,
   Wiki,
-} from "./style";
-import IconeBusca from "./icon-source.svg";
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
+} from "./style"
+import IconeBusca from "./icon-source.svg"
 
-export const LinkStylePlanetas = styled(NavLink)`
-  text-decoration: none;
-  cursor: pointer;
-  &.active {
-    background-color: red;
-  }
-`;
 export default function Planeta({
   nome,
   conteudo,
@@ -80,5 +72,5 @@ export default function Planeta({
         </ContainerBotao>
       </ContainerInfo>
     </ContainerPlaneta>
-  );
+  )
 }
