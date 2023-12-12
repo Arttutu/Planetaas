@@ -1,9 +1,9 @@
-import React from "react";
-import Principal from "../../Componentes/Principal";
-import Dados from "../data.json";
+import React from "react"
+import Principal from "../../Componentes/Principal"
+import Dados from "../data.json"
 export default function Index() {
-  const index = 0;
-  const dados = Dados;
+  const index = 0
+  const dados = Dados
   return (
     <>
       <Principal
@@ -24,5 +24,5 @@ export default function Index() {
       />
       - `
     </>
-  );
+  )
 }
