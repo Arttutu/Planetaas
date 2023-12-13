@@ -7,6 +7,7 @@ import {
   FontAntonio,
   FontSpartan,
 } from "../Variaveis"
+
 export const LinkStyle = styled(NavLink)`
   display: flex;
   align-items: center;

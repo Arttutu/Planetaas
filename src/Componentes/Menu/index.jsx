@@ -16,7 +16,8 @@ import {
 import { GiHamburgerMenu } from "react-icons/gi"
 import { CorBranca } from "../Variaveis"
 import MenuMobile from "../MenuMobile"
-
+import { NavLink } from "react-router-dom"
+import "./style.css"
 export default function Menu({ cor, rotaUm, rotaDois, corMenuMobile }) {
   const [menuAberto, setMenuAberto] = useState(false)
   return (
@@ -65,10 +66,14 @@ export default function Menu({ cor, rotaUm, rotaDois, corMenuMobile }) {
       <SegundaNavLinha />
       <SegundaNav>
         <Botao>
-          <LinkStyle to={rotaUm}>Sobre </LinkStyle>
+          <NavLink className="style-link" to={rotaUm}>
+            Sobre
+          </NavLink>
         </Botao>
         <Botao>
-          <LinkStyle to={rotaDois}>Estrutura</LinkStyle>
+          <NavLink className="style-link" to={rotaDois}>
+            Estrutura
+          </NavLink>
         </Botao>
         <LinkStyle>
           <Botao>Geologia</Botao>
