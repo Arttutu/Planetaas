@@ -32,28 +32,44 @@ export default function Menu({ cor, rotaUm, rotaDois, corMenuMobile }) {
         <NavStyle>
           <ListaStyle>
             <LinkStyle to="/mercurio">
-              <NavItemStyled cor={cor}>Mercurio</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Mercurio
+              </NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/venus">
-              <NavItemStyled cor={cor}>Venus</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Venus
+              </NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/">
-              <NavItemStyled cor={cor}>Terra</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Terra
+              </NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/marte">
-              <NavItemStyled cor={cor}>Marte</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Marte
+              </NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/jupter">
-              <NavItemStyled cor={cor}>Jupter</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Jupter
+              </NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/saturno">
-              <NavItemStyled cor={cor}>Saturno</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Saturno
+              </NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/uranus">
-              <NavItemStyled cor={cor}>Uranos</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Uranos
+              </NavItemStyled>
             </LinkStyle>
             <LinkStyle to="/netuno">
-              <NavItemStyled cor={cor}>Netuno</NavItemStyled>
+              <NavItemStyled cor={cor} activeClassName="active">
+                Netuno
+              </NavItemStyled>
             </LinkStyle>
           </ListaStyle>
         </NavStyle>

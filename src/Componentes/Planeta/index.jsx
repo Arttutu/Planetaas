@@ -1,6 +1,5 @@
 import React from "react"
 import {
-  Botao,
   Box,
   ContainerBotao,
   ContainerInfo,
@@ -14,6 +13,7 @@ import {
   Wiki,
 } from "./style"
 import IconeBusca from "./icon-source.svg"
+import { CorFundo } from "../Variaveis"
 
 export default function Planeta({
   nome,
@@ -28,12 +28,7 @@ export default function Planeta({
 }) {
   return (
     <ContainerPlaneta>
-      <Imagem
-        src={imagem}
-        tablet={tablet}
-        mobile={mobile}
-        alt="Nome do planeta ainda vou adicionar"
-      ></Imagem>
+      <Imagem src={imagem} tablet={tablet} mobile={mobile} alt={nome}></Imagem>
       <ContainerInfo>
         <Box>
           <Titulo>{nome}</Titulo>
@@ -49,26 +44,13 @@ export default function Planeta({
           </ContainerWiki>
         </Box>
         <ContainerBotao>
-          <LinkStylePlanetas
-            cor={cor}
-            to={rotaUm}
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            <Botao className={({ isActive }) => (isActive ? "active" : "")}>
-              01 Sobre
-            </Botao>
+          <LinkStylePlanetas to={rotaUm} cor={cor} activeClassName="active">
+            01 Sobre
           </LinkStylePlanetas>
-          <LinkStylePlanetas
-            cor={cor}
-            to={rotaDois}
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            <Botao className={({ isActive }) => (isActive ? "active" : "")}>
-              02 Estrutura Interna
-            </Botao>
+          <LinkStylePlanetas to={rotaDois} cor={cor} activeClassName="active">
+            02 Estrutura Interna
           </LinkStylePlanetas>
-
-          <Botao $cor={cor}> 03 Geologia da superfíce</Botao>
+          <LinkStylePlanetas>03 Geologia da superfíce</LinkStylePlanetas>
         </ContainerBotao>
       </ContainerInfo>
     </ContainerPlaneta>

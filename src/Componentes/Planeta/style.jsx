@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { NavLink } from "react-router-dom"
+import { NavLink, redirect } from "react-router-dom"
 import {
   CorBranca,
   CorCinzaClara,
@@ -10,8 +10,31 @@ import {
 export const LinkStylePlanetas = styled(NavLink)`
   text-decoration: none;
   cursor: pointer;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  border: 1px solid ${CorCinzaClara};
+  color: ${CorBranca};
+  font-family: ${FontSpartan};
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: 2.57px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 28px;
+  &:hover {
+    background-color: ${CorCinzaClara};
+    border: none;
+    cursor: pointer;
+  }
   &.active {
-    background-color: red;
+    background-color: ${(props) => props.cor};
+  }
+  @media (max-width: 1024px) {
+    width: 281px;
+    height: 40px;
   }
 `
 export const ContainerPlaneta = styled.section`
@@ -119,32 +142,4 @@ export const ContainerBotao = styled.div`
     display: none;
   }
 `
-export const Botao = styled.button`
-  width: 350px;
-  display: flex;
-  align-items: center;
-  height: 48px;
-  border: 1px solid ${CorCinzaClara};
-  background-color: ${CorFundo};
-  color: ${CorBranca};
-  font-family: ${FontSpartan};
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 25px;
-  letter-spacing: 2.57px;
-  text-transform: uppercase;
-  text-align: left;
-  padding-left: 28px;
-  @media (max-width: 1024px) {
-    width: 281px;
-    height: 40px;
-  }
-  &:active {
-    background-color: ${(cor) => cor};
-  }
-  &:hover {
-    background-color: ${CorCinzaClara};
-    border: none;
-    cursor: pointer;
-  }
-`
+export const Botao = styled.button``

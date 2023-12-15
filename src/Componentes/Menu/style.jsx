@@ -85,6 +85,9 @@ export const NavItemStyled = styled.li`
   &:hover {
     border-top: 5px solid ${(props) => props.cor};
   }
+  &.active {
+    border-top: 5px solid ${(props) => props.cor};
+  }
 `
 export const SegundaNav = styled.div`
   display: none;
